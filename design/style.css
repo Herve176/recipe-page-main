@@ -3,8 +3,8 @@ body{
 }
 .firstrectangle{
     background-color: #FFFFFF;
-    width: 55%;
-    height: 950px;
+    width: 50%;
+    height: 80%;
     margin-left: 27%;
     padding: 0;
     margin-top: 15px;
@@ -56,4 +56,66 @@ h3{
 hr{
     width: 87%;
     margin-top: 20px;
+}
+li{
+    margin-top: 12px;
+}
+li::marker {
+    color: #8E6C7A;
+}
+p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+table{
+    width: 80%;
+    margin-left: 50px;
+}
+tr,td{
+    margin-top: 70px;
+    border-bottom: 1px solid #ddd;
+}
+.cal{
+    color:#8E6C7A;
+}
+td{
+    padding: 10px;
+}
+* {
+    box-sizing: border-box;
+}
+/* Stile für Bildschirme mit einer Breite von maximal 768px */
+@media only screen and (max-width: 768px) {
+    p {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    table {
+        width: 100%;
+        margin-left: 0;
+    }
+    tr, td {
+        margin-top: 35px;
+    }
+    td {
+        padding: 5px;
+    }
+}
+
+/* Stile für Bildschirme mit einer Breite von maximal 480px */
+@media only screen and (max-width: 480px) {
+    p {
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+    table {
+        width: 100%;
+        margin-left: 0;
+    }
+    tr, td {
+        margin-top: 20px;
+    }
+    td {
+        padding: 2px;
+    }
 }
